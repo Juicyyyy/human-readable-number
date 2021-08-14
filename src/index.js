@@ -31,7 +31,7 @@ module.exports = function toReadable (number) {
         str = String(number);
         second = str[1];
         third = str[2]; 
-        const res = arrHundreds[0] + " " + arrDozens[second - 2] + " " + arr[second];
+        const res = arrHundreds[0] + " " + arrDozens[second - 2] + " " + arr[third];
         return res;
     }
     else if ((number === 200) || (number === 300) || (number === 400) || (number === 500) || (number === 600) || (number === 700) || (number === 800) || (number === 900)){
