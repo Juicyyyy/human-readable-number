@@ -6,10 +6,10 @@ module.exports = function toReadable (number) {
       const res = arr[number];
       return res;
     } 
-     if (number > 20) {
+     if ((number > 20) && (number < 30)){
          str = String(number);
          n=str[1];
-         const res = arrDozens[0] + arr[n];
+         const res = arrDozens[0] + " " + arr[n];
          return res;
      }
     
